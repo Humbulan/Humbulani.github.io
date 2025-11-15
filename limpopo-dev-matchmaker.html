@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limpopo Dev Matchmaker - Humbulani Mudau</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fce4ec; 
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        .header {
+            color: #d81b60;
+            font-size: 2em;
+        }
+        .content {
+            margin-top: 30px;
+            padding: 30px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        .submit-button {
+            background-color: #3498db;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background-color 0.3s;
+        }
+        .submit-button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="header">🇿🇦 Limpopo Dev Matchmaker Project</h1>
+    <h2>Find Your CodeCrafters Competitor in Thohoyandou</h2>
+    
+    <div class="content">
+        <p>
+            Connect with other high-level developers in the Limpopo area who are tackling deep system challenges like HTTP Servers, Shells, and Databases. Enter your details below to join the local leaderboard and networking list!
+        </p>
+        
+        <form action="#" method="POST"> 
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="location">Your City/Town (e.g., Thohoyandou, Polokwane)</label>
+                <input type="text" id="location" name="location" required>
+            </div>
+            <div class="form-group">
+                <label for="challenge">Top CodeCrafters Challenge Completed</label>
+                <select id="challenge" name="challenge">
+                    <option value="http-server">HTTP Server</option>
+                    <option value="shell">Shell</option>
+                    <option value="git">Git</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <button type="submit" class="submit-button">Join the Limpopo Matchmaker List</button>
+        </form>
+
+        <p style="margin-top: 30px;">
+            <a href="./index.html">← Back to Humbulani's Main Page</a>
+        </p>
+    </div>
+</body>
+</html>
